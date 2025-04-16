@@ -1,50 +1,71 @@
 body {
-    background-color: lightblue;
+    background-color: #f1b0d0;
 
 }
       
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    line-height: 1.1;
-    font-size: 32px;
-}
-
-#icon {
-    width: 32px;
-    border-radius: 50%;
-}
-
-.secondfont {
-    font-family: Arial; 
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 0.2;
-}
-
-.secondfont2 {
-    font-family: Arial, Helvetica, sans-serif; 
-    font-size: 12px;
-    font-weight: 600;
-}
-
-.minired {
-    font-family: Papyrus; 
-    font-size: 12px;
-    color: #dc3334;
-    text-transform: uppercase;
     line-height: 1;
+    font-size: 30px;
+    background: -webkit-linear-gradient(#f7ea23, #60aedd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: right;
 }
+
+.metallic-button {
+    font-size: 18px;
+    padding: 10px 16px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    color: #000;
+    background: linear-gradient(
+      45deg,
+      #999 5%,
+      #fff 10%,
+      #ccc 30%,
+      #ddd 50%,
+      #ccc 70%,
+      #fff 80%,
+      #999 95%
+    );
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+  }
+
+  .center {
+    width: 100%;
+    border: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .metallic-button:hover {
+    transform: translateY(-2px);
+  }
+
+  .inline-block {
+    display: inline-block;
+    }
 
 .cursiv {
     font-family: Georgia;
     font-style: Italic;
+    line-height: 1;
+    font-size: 32px;
 }
 
-.greybox {
-    width: 320px;
-    height: 50px;
-    padding: 10px;
-    background-color: #efefef;
-    margin: 0;
-}
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
