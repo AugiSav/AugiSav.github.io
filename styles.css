@@ -1,3 +1,52 @@
 body {
     background-color: lightblue;
+      
+      h1 {
+        font-family: Papyrus;
+        text-transform: uppercase;
+        line-height: 1.1;
+        font-size: 32px;
+      }
+      
+      #icon {
+        width: 32px;
+        border-radius: 50%;
+      }
+      
+      .secondfont {
+        font-family: Arial; sansserif; 
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 0.2;
+      }
+      
+      .secondfont2 {
+        font-family: Helvetica; sansserif; 
+        font-size: 12px;
+        font-weight: 600;
+      }
+      
+      .minired {
+        font-family: Papyrus; 
+        font-size: 12px;
+        color: #dc3334;
+        text-transform: uppercase;
+        line-height: 1;
+      }
+      
+      .cursiv {
+        font-family: Georgia;
+        font-style: Italic;
+      }
+      
+      .greybox {
+        width: 320px;
+        height: 50px;
+        padding: 10px;
+        background-color: #efefef;
+        margin: 0;
+      }
+      
+      
+      
 }
