@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "star";
+  src: url("Star\ \(kopia\).otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  font-family: "star";
+    background-color: black;
+}
+
+h1 {
+  font-family: "star";
+  text-transform: lowercase;
+  line-height: 3;
+  font-size: 200px;
+  color: white;
+  outline: none;
+text-align: center;
+}
