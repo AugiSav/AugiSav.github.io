@@ -12,7 +12,7 @@ body {
 
 h1 {
   font-family: "star";
-  text-transform: lowercase;
+  text-transform: none;
   line-height: 3;
   font-size: 200px;
   color: white;
