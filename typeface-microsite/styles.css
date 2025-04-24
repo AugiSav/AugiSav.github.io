@@ -24,7 +24,7 @@ h2{
   color: black;
   font-size: 48px;
   font-weight: 300;
-  position: fixed;
+  position: absolute;
   top: -35px;
   right: 10px;
 }
@@ -83,7 +83,7 @@ h4 {
 }
 
 img {
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
   position: relative;
   left: 850px;
@@ -91,11 +91,13 @@ img {
 }
 
 .static{
-  background-color: whitesmoke;
+ /* background-color: red; */
+  width: 600px;
+  height: 500px;
   text-align: left;
-  position: fixed;
+  position: relative;
   left: 100px;
-  top: 600px;
+  top: -1800px;
 } 
 
 .italic{
@@ -107,12 +109,22 @@ img {
 }
 
 .brödtext {
+  position: absolute;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 300;
   display:inline-block;
   text-align:left;
   width:250px;
-  height:10px;
-  margin: 10px;
+  /* background-color: green; */
+}
+
+#first-paragraph {
+  top: 0;
+  left: 0;
+}
+
+#second-paragraph {
+  top: 0;
+  right: 0;
 }
