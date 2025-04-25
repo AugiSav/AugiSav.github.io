@@ -1,13 +1,14 @@
 @font-face {
   font-family: "star";
-  src: url("Star\ Italic\ NY\ \(kopia\).otf");
+  src: url("Star\ Augusta-Italic\ \(kopia\).otf");
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-  font-family: "star italic ny";
+  font-family: "star Augusta-Italic";
     background-color: whitesmoke;
+    overflow-x: hidden;
 }
 
 img {
@@ -49,7 +50,7 @@ h3{
 }
 
 h1 {
-  font-family: "star italic ny";
+  font-family: "star Augusta italic";
   line-height: 1;
   font-size: 200px;
   color: white;
@@ -66,7 +67,7 @@ h1 {
 }
 
 h4 {
-  font-family: "star italic ny";
+  font-family: "star Augusta italic";
   line-height: 1;
   font-size: 200px;
   color: white;
