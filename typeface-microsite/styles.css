@@ -55,10 +55,10 @@ h1 {
   font-size: 200px;
   color: white;
   outline: none;
-  text-align: left;
+  text-align: right;
   position: relative;
-  left: 30px;
-  top: 800px;
+  right: 50px;
+  top: 70px;
   font-weight: normal;
   background: black;
   -webkit-background-clip: text;
@@ -68,19 +68,20 @@ h1 {
 
 h4 {
   font-family: "star Augusta italic";
-  line-height: 1;
+  line-height: 0.97;
   font-size: 200px;
   color: white;
   outline: none;
   text-align: left;
   position: relative;
   left: 60px;
-  top: -140px;
+  top: -150px;
   font-weight: normal;
   background: black;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   z-index:1;
+  padding: 10px;
 }
 
 img {
@@ -93,12 +94,12 @@ img {
 
 .static{
  /* background-color: red; */
-  width: 600px;
+  width: 500px;
   height: 500px;
   text-align: left;
   position: relative;
-  left: 100px;
-  top: -1800px;
+  left: 250px;
+  top: -1820px;
 } 
 
 .italic{
@@ -116,7 +117,7 @@ img {
   font-weight: 300;
   display:inline-block;
   text-align:left;
-  width:250px;
+  width:240px;
   /* background-color: green; */
 }
 
@@ -128,4 +129,38 @@ img {
 #second-paragraph {
   top: 0;
   right: 0;
+}
+
+.static2{
+  /* background-color: red; */
+   width: 500px;
+   height: 500px;
+   text-align: left;
+   position: relative;
+   left: 930px;
+   top: -2608px;
+ } 
+ 
+#alone img {
+  width: 60%;
+  height: 60%;
+  background-size: 100%;
+  position: relative;
+  top: 1000;
+  bottom: 0;
+  left: 0px;
+  right: 0;
+  margin: auto;
+}
+
+#bookshelf2 img {
+  width: 30%;
+  height: 30%;
+  background-size: 100%;
+  position: relative;
+  top: 1000;
+  bottom: 0;
+  left: 200px;
+  right: 0;
+  margin: auto;
 }
