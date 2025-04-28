@@ -93,12 +93,12 @@ img {
 }
 
 .static{
- /* background-color: red; */
+  background-color: red;
   width: 500px;
   height: 500px;
   text-align: left;
   position: relative;
-  left: 250px;
+  left: 50px;
   top: -1820px;
 } 
 
@@ -118,7 +118,7 @@ img {
   display:inline-block;
   text-align:left;
   width:240px;
-  /* background-color: green; */
+  background-color: green;
 }
 
 #first-paragraph {
@@ -127,6 +127,11 @@ img {
 }
 
 #second-paragraph {
+  top: 0;
+  right: 0;
+}
+
+#third-paragraph {
   top: 0;
   right: 0;
 }
