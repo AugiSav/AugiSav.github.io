@@ -1,12 +1,12 @@
 @font-face {
-  font-family: "star";
+  font-family: "Star Augusta-Italic";
   src: url("Star\ Augusta-Italic\ \(kopia\).otf");
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-  font-family: "star Augusta-Italic";
+  font-family: "Star Augusta-Italic";
     background-color: whitesmoke;
     overflow-x: hidden;
     cursor: none;
@@ -58,7 +58,7 @@ h3{
 }
 
 h1 {
-  font-family: "star Augusta italic";
+  font-family: "Star Augusta-Italic";
   line-height: 1;
   font-size: 200px;
   color: white;
@@ -73,12 +73,12 @@ h1 {
   -webkit-text-fill-color: transparent;
   z-index:1;
 }
-.star:hover {
+.star: hover {
   color: rgb(99, 148, 237);
 }
 
 h4 {
-  font-family: "star Augusta italic";
+  font-family: "Star Augusta-Italic";
   line-height: 0.97;
   font-size: 200px;
   color: white;
