@@ -9,7 +9,7 @@ body {
   font-family: "Star-Augusta-Italic";
     background-color: whitesmoke;
     overflow-x: hidden;
-    cursor: url(mus.png), auto;
+    cursor: url('./mus4.png'), auto;
 }
 
 .custom-cursor {
@@ -26,7 +26,7 @@ img.bilder {
   height: auto;
   position: relative;
   left: 850px;
-  top: -1410px;
+  top: -1407px;
 }
 
 h2{
@@ -42,7 +42,7 @@ h2{
   padding: 5px;
 }
 
-h3{
+h3 {
   font-family: Helvetica, sans-serif;
   color: black;
   font-size: 14px;
@@ -98,17 +98,17 @@ h4 {
   padding: 10px;
 }
 
-.static{
+.static {
   /* background-color: red; */
   width: 755px;
   height: 500px;
   text-align: left;
   position: relative;
   left: 60px;
-  top: -1820px;
+  top: -1825px;
 } 
 
-.italic{
+.italic {
   font-family: Helvetica, sans-serif;
   color: black;
   font-size: 14px;
@@ -118,9 +118,9 @@ h4 {
 
 .brödtext {
   position: absolute;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: lighter;
   display:inline-block;
   text-align:left;
   width:240px;
@@ -149,7 +149,7 @@ h4 {
    text-align: left;
    position: relative;
    left: 930px;
-   top: -4225px;
+   top: -2720px;
  } 
  
 #alone img {
@@ -162,42 +162,6 @@ h4 {
   left: 0px;
   right: 0;
   margin: auto;
-}
-
-#sidescroll {
-  width: 30%;
-  height: 30%;
-  background-size: 100%;
-  position: relative;
-  top: 1000;
-  bottom: 0;
-  left: 0px;
-  right: 0;
-  margin: auto;
-}
-
-#sidescroll {
-  width: 100%;
-  height: 100%;
-  background-size: 100%;
-  position: relative;
-  top: -2500px;
-  margin: auto;
-  overflow-y: auto;
-  overflow-x: hidden;
-  transform: rotate(-90deg) translateY(-1500px);
-  transform-origin: right top;
-  display: inline-block;
-    
-}
-
-#sidescroll > div {
-  transform: rotate(90deg);
-  transform-origin: right top;
-  width: 20%;
-  height: 20%;
-  margin: 30px;
-  display: inline-block;
 }
 
 .ode {
@@ -232,3 +196,41 @@ h4 {
     padding: 10px;
     text-align: center;
   }
+
+  #carousel {
+    width: 100%;
+    overflow: none;
+    position: relative;
+  }
+  
+  .carousel-track {
+    display: flex;
+    width: max-content;
+    animation: scroll 30s linear infinite;
+  }
+  
+  .carousel-track img {
+    height: 700px; /* justera efter behov */
+    margin-right: 0px;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+  
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  #carousel:hover .carousel-track {
+    animation-play-state: paused;
+  }
+
+  #carousel {
+    position: relative;
+    top: -1350px; /* justera detta tills det ligger där du vill */
+    left: 0px;
+  }
+  
