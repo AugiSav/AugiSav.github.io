@@ -206,7 +206,7 @@ h4 {
   .carousel-track {
     display: flex;
     width: max-content;
-    animation: scroll 30s linear infinite;
+    animation: scroll 50s linear infinite;
   }
   
   .carousel-track img {
